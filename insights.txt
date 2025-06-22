@@ -1,0 +1,12 @@
+Here are some additional observations from the provided ADT-1 form:
+
+*   **Appointment Context:** Re-appointment in AGM.
+*   **Resolution Details:** Board resolution number 007 dated 29/08/2022.
+*   **Approval:** Approved in the Annual General Meeting (AGM). Date of AGM is 26/09/2022.
+*   **Attachments:**
+    *   Intimation Letter Signed.pdf
+    *   Consent signed.pdf
+    *   Resolution for appointment of Auditor Signed
+    *   Acceptance signed.pdf
+*   **Casual Vacancy:** No casual vacancy.
+*   **Digital Signature:** The form is digitally signed by Krishna Kumar Rao, a Director (DIN: 07579495) on 2022-11-23.
