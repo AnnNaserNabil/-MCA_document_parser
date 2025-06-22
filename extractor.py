@@ -176,15 +176,22 @@ def generate_summary_from_json(data: Dict[str, Any], filename: str = "summary.tx
     """
     # Prepare the messages for the LLM conversation
     messages = [
-        # System message sets the tone and style for the summary
-        SystemMessage(content="You're an AI assistant summarizing company filings in human-friendly language."),
-        # Human message provides the data and instructions
+        # System message sets the context for the summary
+        SystemMessage(content="""You are a professional corporate document analyst. Your task is to create a 
+concise 3-4 sentence summary of the ADT-1 form data. Focus on the most important information that 
+would be relevant to stakeholders. Keep the language clear, professional, and to the point."""),
+        # Human message provides the structured data and instructions
         HumanMessage(content=f"""
-Based on the following structured data from a Form ADT-1 filing, generate a clear, 
-professional, and non-technical 3–5 line summary. Keep it concise and human-readable.
-Focus on the key points: company name, auditor details, and appointment specifics.
+Please analyze the following JSON data from an ADT-1 form and generate a concise 3-4 sentence summary 
+that includes the most critical information. Focus on:
+1. Company name
+2. Auditor's name and registration number
+3. Type and date of appointment
+4. Key details about the appointment (e.g., duration, meeting type)
 
-Data:
+Keep the summary brief but informative, and write it in a single paragraph. Do not include section headers or bullet points.
+
+Here is the JSON data to analyze:
 {json.dumps(data, indent=2)}
 """)
     ]
@@ -220,21 +227,61 @@ def generate_additional_insights(raw_text: str, filename: str = "insights.txt") 
     # Prepare the messages for the LLM conversation
     messages = [
         # System message sets the analytical context
-        SystemMessage(content="You're an analyst reviewing a government form (Form ADT-1)."),
+        SystemMessage(content="""You are a meticulous document analyst specialized in corporate governance documents. 
+Your task is to thoroughly analyze the provided ADT-1 form and extract all critical information, 
+ensuring no important detail is missed."""),
         # Human message provides detailed instructions and the text to analyze
         HumanMessage(content=f"""
-Carefully review the full PDF content below and identify any significant information 
-that wasn't captured in the standard fields. Focus on:
+Comprehensively analyze the complete ADT-1 form text below and extract ALL important information. 
+Pay special attention to the following aspects:
 
-1. Appointment context (e.g., casual vacancy, reappointment, C&AG appointment)
-2. Specific resolution or consent details
-3. Approval details (board meeting, AGM, etc.)
-4. Any irregularities, special notes, or regulatory flags
-5. References to attachments or supporting documents
+1. COMPANY INFORMATION:
+   - Full legal name of the company
+   - Corporate Identification Number (CIN)
+   - Registered office address
+   - Email address and contact details
+   - Financial year being reported
 
-Format your response as clear, concise bullet points. Only include notable findings.
+2. AUDITOR APPOINTMENT DETAILS:
+   - Type of appointment (First, Reappointment, Casual Vacancy, etc.)
+   - Name and details of the auditor being appointed
+   - Auditor's registration number
+   - Auditor's address and contact information
+   - Whether the auditor is an individual or a firm
 
-Text:
+3. APPOINTMENT RESOLUTION:
+   - Type of meeting (AGM, EGM, Board Meeting)
+   - Date of the meeting
+   - Resolution number and type
+   - Voting details (if any)
+   - Any special conditions or remarks
+
+4. STATUTORY COMPLIANCE:
+   - Section of Companies Act under which appointed
+   - Any regulatory requirements mentioned
+   - Compliance with rotation requirements (if applicable)
+   - Declaration of auditor's eligibility
+
+5. ADDITIONAL DOCUMENTS:
+   - Any referenced attachments or annexures
+   - Supporting documents mentioned
+   - Cross-references to other forms or filings
+
+6. SIGNATORIES:
+   - Names and designations of signing authorities
+   - DIN numbers of directors (if applicable)
+   - Date of signing
+
+7. SPECIAL NOTES:
+   - Any disclaimers or qualifications
+   - Important notes or observations
+   - Specific instructions or conditions
+
+Format your response in clear, well-organized sections with appropriate headings. 
+Be thorough and include all relevant details, even if they seem minor. 
+If any information is missing or unclear, note that explicitly.
+
+DOCUMENT TEXT:
 {raw_text[:30000]}  # Limit to first 30k chars to avoid token limits
 """)
     ]
