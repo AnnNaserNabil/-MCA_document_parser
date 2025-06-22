@@ -1,5 +1,15 @@
 # 📄 Filesure ADT-1 PDF Extractor
 
+# 🎥 Video Presentation
+
+the video presentation here:  
+[Watch the video on Google Drive](https://drive.google.com/file/d/1glgJ-htWIjvAyXzY4f0klKd_XxOqAdAg/view?usp=drivesdk)
+
+
+
+
+
+
 This project is a take-home assignment for Filesure. It demonstrates how to use Python and AI (Google Gemini via LangChain) to extract and summarize information from **Indian Form ADT-1** filings — which report the appointment of statutory auditors to the Ministry of Corporate Affairs (MCA).
 
 ---
