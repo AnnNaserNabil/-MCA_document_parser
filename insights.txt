@@ -1,25 +1,25 @@
-Here's a comprehensive analysis of the provided ADT-1 form, extracting all important information as requested:
+Here's a comprehensive analysis of the provided ADT-1 form, extracting all important information as requested.
 
 **1. COMPANY INFORMATION:**
 
-*   **Full Legal Name of the Company:** ALUPA FOODS PRIVATE LIMITED
+*   **Full Legal Name:** ALUPA FOODS PRIVATE LIMITED
 *   **Corporate Identification Number (CIN):** U74999KA2016PTC095981
 *   **Registered Office Address:** DHANYALAXMI RICE MILL, 5-110A, PUTTUR, UDUPI, Udupi, Karnataka, 576105
-*   **Email Address:** mail@alupafoods.in
-*   **Financial Year Being Reported:** The auditor is appointed for the period from 01/04/2022 to 31/03/2027.
+*   **Email ID:** mail@alupafoods.in
+*   **Financial Year Being Reported:** The auditor is appointed for 5 financial years, starting from 01/04/2022 and ending on 31/03/2027.
 
 **2. AUDITOR APPOINTMENT DETAILS:**
 
 *   **Type of Appointment:** Appointment/Re-appointment in AGM
-*   **Name of the Auditor:** MALLYA & MALLYA
+*   **Name of Auditor:** MALLYA & MALLYA
 *   **Auditor's Registration Number:** 001955S
 *   **Auditor's Address:** 29/2, 1st Floor, Parijatha Complex, Race Course Road, Bangalore, Karnataka-KA, IN, 560001
 *   **Auditor's Email ID:** mallyaandmallya@gmail.com
 *   **Auditor Type:** Auditor's Firm
-*   **Income Tax Permanent Account Number of Auditor's Firm:** AABFM8893Q
-*   **Period of Account for Which Appointed:** From 01/04/2022 to 31/03/2027
-*   **Number of Financial Years to Which Appointment Relates:** 5
-*   **Appointment within Limits of Twenty Companies (Section 141(3)(g)):** Yes
+*   **Income Tax PAN:** AABFM8893Q
+*   **Appointment within Limits of 20 Companies:** Yes (The form indicates "Yes" to the question of whether the appointment is within the limits of twenty companies as specified in sub section 3(g) of section 141)
+*   **Period of Account:** 01/04/2022 to 31/03/2027
+*   **Number of Financial Years:** 5
 
 **3. APPOINTMENT RESOLUTION:**
 
@@ -27,20 +27,21 @@ Here's a comprehensive analysis of the provided ADT-1 form, extracting all impor
 *   **Date of AGM:** 26/09/2022
 *   **Date of Appointment:** 26/09/2022
 *   **Board Resolution Number:** 007
-*   **Date of Board Resolution:** 29/08/2022
-*   **Voting Details:** Not explicitly mentioned, but implied to be passed in AGM.
+*   **Board Resolution Date:** 29/08/2022
+*   **Voting Details:** Not explicitly provided, but the appointment in AGM implies shareholder approval.
 
 **4. STATUTORY COMPLIANCE:**
 
-*   **Section of Companies Act Under Which Appointed:** Section 139 of the Companies Act, 2013 and Rule 4(2) of the Companies (Audit and Auditors) Rules, 2014.
-*   **Compliance with Rotation Requirements:** The form includes details of previous appointments, suggesting consideration of rotation requirements. The tenure of previous appointments is listed from 24/08/2016 to 31/03/2022.
-*   **Declaration of Auditor's Eligibility:** The declaration signed by the Director confirms compliance with the Companies Act, 2013 and rules made thereunder.
+*   **Section of Companies Act:** Section 139 of the Companies Act, 2013
+*   **Rule:** Rule 4(2) of the Companies (Audit and Auditors) Rules, 2014
+*   **Rotation Requirements:** The form includes a section (i) to specify the tenure of previous appointments, indicating consideration of rotation requirements. The auditor firm was appointed for 6 financial years from 24/08/2016 to 31/03/2022.
+*   **Auditor's Eligibility Declaration:** The declaration confirms compliance with the Companies Act, 2013 and related rules.
 
 **5. ADDITIONAL DOCUMENTS:**
 
 *   **Attachments:**
-    *   Copy of the intimation sent by the company (Intimation Letter Signed.pdf)
-    *   Copy of written consent given by the auditor (Consent signed.pdf)
+    *   Copy of the intimation sent by company (Intimation Letter Signed.pdf)
+    *   Copy of written consent given by auditor (Consent signed.pdf)
     *   Copy of resolution passed by the board/company (Resolution for appointment of Auditor Signed)
     *   Copy of the letter of appointment from C&AG (Acceptance signed.pdf)
 *   **Optional Attachments:** Not specified.
@@ -50,12 +51,16 @@ Here's a comprehensive analysis of the provided ADT-1 form, extracting all impor
 *   **Name:** Krishna Kumar Rao
 *   **Designation:** Director
 *   **DIN:** 07579495
-*   **Date of Signing:** 2022.11.23
+*   **Date of Signing:** 2022.11.23 (as per digital signature timestamp)
 
 **7. SPECIAL NOTES:**
 
 *   **Casual Vacancy:** The form indicates that the auditor was NOT appointed due to a casual vacancy.
-*   **False Statement Warning:** The form includes a note drawing attention to Section 448 of the Companies Act, which provides for punishment for false statements.
-*   **Digital Signature:** The form is digitally signed by Krishna Kumar Rao.
-*   **Company falls under section 139(2):** No
-*   **Joint Auditors Appointed:** No
+*   **False Statement Warning:** The form includes a warning about punishment for false statements under Section 448 of the Companies Act.
+*   **Electronic Filing:** The form confirms that it has been taken on file by the registrar of companies through electronic mode based on the statement of correctness given by the company.
+
+**MISSING/UNCLEAR INFORMATION:**
+
+*   **Global Location Number (GLN):** The field is present but empty.
+*   **Voting Details:** While the appointment is in AGM, specific voting details (e.g., percentage of votes for/against) are not provided.
+*   **Details of Previous Auditor (if applicable):** If there was a previous auditor and the current appointment is a reappointment, more details about the previous auditor could be relevant but are not explicitly captured beyond the tenure information.
