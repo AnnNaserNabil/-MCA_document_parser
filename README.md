@@ -38,7 +38,20 @@ git clone https://https://github.com/AnnNaserNabil/-MCA_document_parser
 cd -MCA_document_parser
 ```
 
-2. Install dependencies
+2. Set up a virtual environment (recommended)
+
+```bash
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+.\venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+3. Install dependencies
 
 ```bash
 pip install -r requirements.txt

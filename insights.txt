@@ -1,12 +1,31 @@
-Here are some additional observations from the provided ADT-1 form:
+Okay, here's a breakdown of the significant information from the ADT-1 form that goes beyond the standard field data:
 
-*   **Appointment Context:** Re-appointment in AGM.
-*   **Resolution Details:** Board resolution number 007 dated 29/08/2022.
-*   **Approval:** Approved in the Annual General Meeting (AGM). Date of AGM is 26/09/2022.
+*   **Appointment Context:**
+    *   The appointment is a re-appointment in the AGM.
+    *   The auditor was previously appointed for 6 financial years.
+    *   The appointment is *not* due to a casual vacancy.
+
+*   **Resolution & Consent Details:**
+    *   The form explicitly mentions "Copy of resolution passed by the board/company" as an attachment.
+    *   The declaration confirms compliance with the Companies Act, 2013 and related rules.
+    *   Board resolution number is '007' dated '29/08/2022'.
+
+*   **Approval Details:**
+    *   The auditor was appointed in the Annual General Meeting (AGM) held on 26/09/2022.
+    *   Date of appointment is 26/09/2022.
+
 *   **Attachments:**
-    *   Intimation Letter Signed.pdf
-    *   Consent signed.pdf
-    *   Resolution for appointment of Auditor Signed
-    *   Acceptance signed.pdf
-*   **Casual Vacancy:** No casual vacancy.
-*   **Digital Signature:** The form is digitally signed by Krishna Kumar Rao, a Director (DIN: 07579495) on 2022-11-23.
+    *   Mandatory attachments include:
+        *   Copy of the intimation sent by the company.
+        *   Copy of written consent given by the auditor ("Consent signed.pdf").
+        *   Copy of resolution passed by the board/company ("Resolution for appointment of Auditor Signed").
+    *   Optional attachments are allowed.
+    *   A file named "Acceptance signed.pdf" is attached.
+
+*   **Regulatory Flags/Notes:**
+    *   The form explicitly references Section 139 of the Companies Act, 2013, and Rule 4(2) of the Companies (Audit and Auditors) Rules, 2014.
+    *   A note at the bottom draws attention to Section 448 of the Companies Act regarding punishment for false statements.
+
+*   **Other:**
+    *   The form is digitally signed by Krishna Kumar Rao, a Director (DIN: 07579495).
+    *   The form includes a "Pre-fill" button, suggesting some data was automatically populated.
